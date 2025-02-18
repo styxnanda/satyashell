@@ -35,6 +35,7 @@ const SUDO_PASSWORD = command.password;
 const REPO_LINK = command.repoLink;
 const RESUME_LINK = command.resumeLink;
 const LINKEDIN_USER = command.social.linkedin;
+const USER_SHELL = command.username;
 
 const scrollToBottom = () => {
   const MAIN = document.getElementById("main");
@@ -211,7 +212,7 @@ function commandHandler(input : string) {
       break;
     case 'whoami':      
       if(bareMode) {
-        writeLines([`${command.username}`, "<br>"])
+        writeLines([`${USER_SHELL}`, "<br>"])
         break;
       }
       writeLines(createWhoami());
