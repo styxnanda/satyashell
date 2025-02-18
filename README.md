@@ -16,11 +16,11 @@ Repository for my terminal-styled portofolio website. Credits to WebShellX for b
 
 Clone the repository
 ```shell
-git clone https://github.com/satyaand/satyash.git
+git clone https://github.com/satyaand/satyashell.git
 ```
 Go to the project directory
 ```shell
-cd satyash
+cd satyashell
 ```
 Install the dependencies
 ```shell
