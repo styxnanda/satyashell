@@ -14,6 +14,8 @@
     "vite": "^5.0.0"
   },
   "dependencies": {
+    "@types/node": "^22.13.4",
+    "dotenv": "^16.4.7",
     "js-yaml": "^4.1.0"
   }
 }

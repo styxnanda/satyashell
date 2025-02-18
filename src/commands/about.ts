@@ -8,15 +8,26 @@ const createAbout = () : string[] => {
   const EMAIL = "Email";
   const GITHUB = "Github";
   const LINKEDIN = "Linkedin";
+  const INSTAGRAM = "Instagram";
   
   const email = `<i class='fa-solid fa-envelope'></i> ${EMAIL}`;   
   const github = `<i class='fa-brands fa-github'></i> ${GITHUB}`;
   const linkedin = `<i class='fa-brands fa-linkedin'></i> ${LINKEDIN}`;
+  const instagram = `<i class='fa-brands fa-instagram'></i> ${INSTAGRAM}`;
   let string = "";
 
   about.push("<br>");
-  about.push(command.aboutGreeting);
+  about.push(`<p class="about-greeting">${command.aboutGreeting}</p>`);
   about.push("<br>");
+
+  about.push(`${SPACE.repeat(2)}EDUCATION:`);
+  command.education.forEach((edu) => {
+    about.push(`${SPACE.repeat(2)}${edu.campus} (${edu.duration})`);
+    about.push(`${SPACE.repeat(2)}${edu.major}`);
+    about.push(`${SPACE.repeat(2)}GPA: ${edu.gpa} / 4.00`);
+    about.push("<br>");
+  });
+
   string += SPACE.repeat(2);
   string += email;
   string += SPACE.repeat(17 - EMAIL.length);
@@ -35,6 +46,13 @@ const createAbout = () : string[] => {
   string += linkedin;
   string += SPACE.repeat(17 - LINKEDIN.length);  
   string += `<a target='_blank' href='https://www.linkedin.com/in/${command.social.linkedin}'>linkedin/${command.social.linkedin}</a>`;
+  about.push(string);
+
+  string = '';
+  string += SPACE.repeat(2);
+  string += instagram;
+  string += SPACE.repeat(17 - INSTAGRAM.length);  
+  string += `<a target='_blank' href='https://www.instagram.com/${command.social.instagram}'>instagram/${command.social.instagram}</a>`;
   about.push(string);
 
   about.push("<br>");

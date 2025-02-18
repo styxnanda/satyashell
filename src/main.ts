@@ -3,7 +3,8 @@ import { HELP } from "./commands/help";
 import { BANNER } from "./commands/banner";
 import { ABOUT } from "./commands/about"
 import { DEFAULT } from "./commands/default";
-import { PROJECTS } from "./commands/projects";
+import { PROJECTS, getProjectDetails } from "./commands/projects";
+import { JOBS } from "./commands/jobs";
 import { createWhoami } from "./commands/whoami";
 
 //mutWriteLines gets deleted and reassigned
@@ -28,10 +29,12 @@ const PRE_USER = document.getElementById("pre-user");
 const HOST = document.getElementById("host");
 const USER = document.getElementById("user");
 const PROMPT = document.getElementById("prompt");
-const COMMANDS = ["help", "about", "projects", "whoami", "repo", "banner", "clear"];
+const COMMANDS = ["help", "about", "projects", "jobs", "whoami", "repo", "resume", "banner", "linkedin", "clear"];
 const HISTORY : string[] = [];
 const SUDO_PASSWORD = command.password;
 const REPO_LINK = command.repoLink;
+const RESUME_LINK = command.resumeLink;
+const LINKEDIN_USER = command.social.linkedin;
 
 const scrollToBottom = () => {
   const MAIN = document.getElementById("main");
@@ -180,7 +183,10 @@ function commandHandler(input : string) {
     return
   }
 
-  switch(input) {
+  const [command, ...args] = input.split(" ");
+  const arg = args.join(" ");
+
+  switch(command) {
     case 'clear':
       setTimeout(() => {
         if(!TERMINAL || !WRITELINESCOPY) return
@@ -191,7 +197,7 @@ function commandHandler(input : string) {
       break;
     case 'banner':
       if(bareMode) {
-        writeLines(["WebShell v1.0.0", "<br>"])
+        writeLines(["SatyaShell v1.0.0", "<br>"])
         break;
       }
       writeLines(BANNER);
@@ -222,7 +228,14 @@ function commandHandler(input : string) {
         writeLines(["I don't want you to break the other projects.", "<br>"])
         break;
       }
-      writeLines(PROJECTS);
+      if(arg){
+        writeLines(getProjectDetails(arg));
+      } else {
+        writeLines(PROJECTS);
+      }
+      break;
+    case 'jobs':
+      writeLines(JOBS);
       break;
     case 'repo':
       writeLines(["Redirecting to github.com...", "<br>"]);
@@ -230,8 +243,17 @@ function commandHandler(input : string) {
         window.open(REPO_LINK, '_blank');
       }, 500);
       break;
+    case 'resume':
+    writeLines(["Opening resume...", "<br>"]);
+    setTimeout(() => {
+      window.open(RESUME_LINK, '_blank');
+    }, 500);  
+    break;
     case 'linkedin':
-      //add stuff here
+      writeLines(["Redirecting to linkedin.com...", "<br>"]);
+      setTimeout(() => {
+        window.open(`https://www.linkedin.com/in/${LINKEDIN_USER}`, '_blank');
+      }, 500);
       break;
     case 'github':
       //add stuff here
@@ -256,16 +278,16 @@ function commandHandler(input : string) {
         writeLines(["no.", "<br>"])
         break;
       }
-      if(!PASSWORD) return
-      isPasswordInput = true;
-      USERINPUT.disabled = true;
+      writeLines(["-bash: <span class='command'>'sudo'</span>: command not found", "<br>"]);
+      // if(!PASSWORD) return
+      // isPasswordInput = true;
+      // USERINPUT.disabled = true;
 
-      if(INPUT_HIDDEN) INPUT_HIDDEN.style.display = "none";
-      PASSWORD.style.display = "block";
-      setTimeout(() => {
-        PASSWORD_INPUT.focus();
-      }, 100);
-
+      // if(INPUT_HIDDEN) INPUT_HIDDEN.style.display = "none";
+      // PASSWORD.style.display = "block";
+      // setTimeout(() => {
+      //   PASSWORD_INPUT.focus();
+      // }, 100);
       break;
     case 'ls':
       if(bareMode) {

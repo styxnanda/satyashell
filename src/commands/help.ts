@@ -1,23 +1,28 @@
 const helpObj = {
   "commands": [
     [
-    "'about'",
-    "Who made this website?",
+      "'about'",
+      "About me, my education history, and social accounts.",
     ],
     [
       "'projects'",
-      "Maybe there's something interesting."
+      "List of personal projects. Type <span class='command'>'projects [project name]'</span> to view details."
     ],
     [
-      "'whoami'",
-      "A perplexing question."
-    ],
-    ["'sudo'",
-      "???"
+      "'jobs'",
+      "List of work/internships experience."
     ],
     [
       "'repo'",
-      "View the Github Repository."
+      "View Github profile."
+    ],
+    [
+      "'resume'",
+      "View my latest resume."
+    ],
+    [
+      "'linkedin'",
+      "View LinkedIn profile."
     ],
     ["'banner'",
       "Display the banner."

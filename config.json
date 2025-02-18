@@ -1,56 +1,167 @@
 {
   "ascii": [
-    "███████╗██╗  ██╗███████╗██╗     ██╗",
-    "██╔════╝██║  ██║██╔════╝██║     ██║",
-    "███████╗███████║█████╗  ██║     ██║",
-    "╚════██║██╔══██║██╔══╝  ██║     ██║",
-    "███████║██║  ██║███████╗███████╗███████╗",
-    "╚══════╝╚═╝  ╚═╝╚══════╝╚══════╝╚══════╝"
+    "⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿",
+    "⣿⣿⣿⣿⣅⠙⣿⣿⣿⣿⣟⢓⣏⡿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿",
+    "⣿⣿⣿⣿⣿⣧⡈⠻⣿⣿⣝⣿⣻⣿⣿⣙⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿",
+    "⣿⣿⣿⣿⣿⣿⠁⠀⠈⠱⠂⠋⣯⣼⡓⢫⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿",
+    "⣿⣿⣿⣿⣿⣏⠀⠀⠀⠐⠃⡀⠘⠋⠈⠈⣉⠙⢻⣿⣿⣿⠿⠟⠛⣉⠉⡀⢠⣈⠙⠿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿",
+    "⣿⣿⣿⣿⣿⣟⣠⣄⣠⣤⠾⠃⠀⠀⠠⠀⠀⠀⠀⢩⠡⡒⠢⠉⢃⠈⢄⠐⡄⣢⠁⠂⠄⡉⠛⠿⢿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿",
+    "⣿⣿⣿⣿⣿⣿⣼⣿⣿⡩⣄⠀⠀⠀⠀⠀⠀⢠⡀⠀⢂⠐⢄⡱⠤⠓⡤⠓⡑⠤⡑⠂⠄⢀⡉⠲⠠⠌⣉⠛⠻⠿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿",
+    "⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣜⠂⠀⠀⠀⠀⠀⢿⡏⠱⠤⢋⠀⠣⠐⢄⠀⢄⠈⠢⢀⠁⠆⠠⢅⡈⠐⠀⠄⢈⡁⠐⠀⠠⠍⠉⢉⣛⣛⣛⣛⠉⠭⢿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿",
+    "⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⡏⠀⠀⠀⠀⠀⠀⢠⣿⢄⠑⡀⠑⡄⢱⣄⡗⢄⠱⢞⠠⡙⠍⡐⠂⠄⣁⠒⠀⠄⢀⡈⠁⠀⠀⠂⠀⠀⠀⠀⠤⣴⣶⡶⠞⠛⠛⠛⠿⣿⣿⣿⡿⠛⠛⢿⣿⣿⡟⠛⠛⠛⠛⠛⠛⡟⠛⠛⢿⣿⠟⠛⠛⣿⣿⣿⠟⠛⠻⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿",
+    "⣿⣿⣿⣿⣿⣿⣿⣿⣿⡿⠀⠀⠀⠀⠀⠀⣆⠁⠀⠀⠳⣨⡒⠀⢆⠘⡌⠂⠓⢄⠑⠄⡑⠠⢁⠂⠤⢈⠁⠒⠀⠤⠀⣉⡁⠀⠀⠒⢶⣶⣶⣿⣿⠀⠀⠐⠂⠀⠤⣽⣿⡟⠁⢀⡀⠀⠻⣿⣷⣶⡆⠀⠀⣶⣶⣿⣦⡀⠀⠁⢀⣴⣿⣿⣿⠋⠀⣠⠀⠘⢿⣿⣿⣿⣿⣿⣿⣿⣿⣿",
+    "⣿⣿⣿⣿⣿⣿⣿⣿⣿⠀⠀⠀⠀⠀⠀⠀⠸⠃⠀⠀⠀⠙⣿⣦⡀⣦⡈⢢⡑⠄⡑⠠⣈⠐⢤⣈⠐⠂⠄⣉⠐⠂⠤⣤⣤⣈⣙⣿⣿⣿⣿⣿⣿⡙⠂⠐⠂⠀⠀⣸⠏⠀⢀⠈⠀⡀⠀⠹⣿⣿⡇⠀⠀⣿⣿⣿⣿⣿⠀⠀⢸⣿⣿⡿⠁⠀⡀⠁⢀⠀⠈⢿⣿⣿⣿⣿⣿⣿⣿",
+    "⣿⣿⣿⣿⣿⣿⣿⣿⣿⠀⠀⠀⠀⠀⠀⠀⠀ ⠀⢀⠀⠀⠈⢻⣿⣿⣿⣶⣷⣦⣈⣶⣾⣿⣶⣿⣿⣷⣶⣤⣿⣷⠖⠛⠛⢿⣿⣿⡟⠛⠛⠛⣿⣿⠒⠀⢰⣶⣾⣿⠒⠒⠛⣿⣿⣿⡖⠒⠚⠻⣷⣶⠒⠛⢻⡟⠛⠒⠒⠚⠻⢿⣶⣾⠛⠛⠛⣷⣶⣶⣿⣿⣿⣿⣿⣿⣿",
+    "⣿⣿⣿⣿⣿⣿⣿⣿⣿⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⣼⣷⡀⠀⠀⠻⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⠋⠀⣠⡀⠈⢻⣿⡇⠀⠀⣄⠈⠻⡀⠀⢸⣿⡿⠁⠀⣤⠀⠈⢿⣿⡇⠀⠀⡀⠘⢿⠀⠀⢸⡇⠀⢰⣶⣶⡄⠀⠈⣿⡿⠃⠀⣤⠀⠈⢿⣿⣿⣿⣿⣿⣿⣿",
+    "⣿⣿⣿⣿⣿⣿⣿⡇⢰⠀⠀⠀⠀⠀⠀⠀⠈⣿⣿⣿⣿⣆⢀⣴⣝⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⡿⠁⠀⣀⣀⣀⡀⠀⠹⡇⠀⠀⣿⣦⡀⠀⠀⢸⡟⠁⢀⣀⣀⣀⡀⠈⢻⡇⠀⠀⣿⣆⠀⠀⠀⢸⠇⠀⠈⠛⠋⠁⠀⣠⡟⠁⠀⣀⣀⣀⡀⠀⠻⣿⣿⣿⣿⣿",
+    "⣿⣿⣿⣿⣿⣿⣿⣿⣇⠀⠀⠀⠀    ⢸⣿⣿⣿⣿⣷⣽⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣷⣶⣾⣿⣿⣿⣿⣶⣶⣿⣶⣶⣿⣿⣿⣶⣶⣾⣷⣶⣾⣿⣿⣿⣷⣶⣾⣷⣶⣾⣿⣿⣷⣶⣶⣿⣷⣶⣶⣶⣶⣿⣿⣶⣾⣿⣿⣿⣷⣶⣶⣿⣿⣿⣿",
+    "⣿⣿⣿⣿⣿⣿⣿⣿⣷⠈⠀⠀⠀⣿⠀⠸⠀⠀⢸⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿",
+    "⣿⣿⣿⣿⣿⣿⣿⣿⡿⠀⠀⠀⠀⠸⡇⠀⠀⠀⡆⣽⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿",
+    "⣿⣿⣿⣿⣿⣿⣿⣿⠃⠀⠀⠀⠀⠀⡇⢀⠀⠀⠀⢹⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿",
+    "⣿⣿⣿⣿⣿⣿⣿⣿⣷⡆⠀⠀⠀⣾⣷⣄⠀⠀⠀⢸⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿",
+    "⣿⣿⣿⣿⣿⣿⣿⣿⣿⣷⠀⠀⣠⣿⣿⣿⣄⠀⠀⣾⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿",
+    "⣿⣿⣿⣿⣿⣿⡿⠿⠛⠁⠀⠀⢸⣿⣿⣿⣿⠀⠀⢻⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿",
+    "⣿⣿⣿⣿⣿⣿⣄⣀⣀⣀⣄⣀⣼⣿⣿⡿⠡⠀⠀⠀⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿",
+    "⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣶⣾⣷⣶⣿⣿⣿"
   ],
-  "title": "WebShell",
-  "username": "visitor",
-  "hostname": "webshell",
-  "password": "050823",
-  "repoLink": "https://github.com/nasan016/webshell",
+  "title": "SatyaSh - SatyaShell",
+  "username": "guest",
+  "hostname": "portofolio",
+  "password": "",
+  "repoLink": "https://github.com/styxnanda/",
+  "resumeLink": "https://1drv.ms/b/c/3d1f81cb17722534/ETf_QSyY7XJJgvOu-HflJxcBePewNvfRijVlqO-bLLMjZA?e=96NVjT",
   "social": {
-    "email": "your@email.com",
-    "github": "yourgithub",
-    "linkedin": "you"
+    "email": "satyaananda65@gmail.com",
+    "github": "styxnanda",
+    "linkedin": "satyaand",
+    "instagram": "satyaand"
   },
-  "aboutGreeting": "Hi stranger. Welcome to WebShell.",
+  "aboutGreeting": "Salutations! My name is Satya Ananda, and you can reach me out on my socials. I am a final year Computer Engineering student from Universitas Indonesia with interest in software engineering, internet of things, big data, and cybersecurity. My hobbies are music writing, music production, novel writing, watching movies, and playing video games. Currently seeking internship opportunities to contribute in industry-level projects to grow my soft and hard skills.",
+  "jobs": [
+    {
+      "company": "PT Toyota Motor Manufacturing Indonesia",
+      "role": "Cyber Security Intern",
+      "duration": "February 2024 - August 2024",
+      "description": [
+        "Led the productivity improvement project of CSIRT (incident response team) by automation, visualization, and SOP provision",
+        "Developed using Power Apps, Power BI, Power Automate, and Microsoft Teams.",
+        "Pilot cybersecurity platform (PoC) for suppliers' compliancy with JAMA/JAPIA cybersecurity standard using Power Apps and Power Automate in Microsoft Teams environment.",
+        "Became evidence PIC during ISO/IEC 27001:2013 surveillance audit."
+      ]
+    },
+    {
+      "company": "Faculty of Engineering Universitas Indonesia",
+      "role": "Linear Algebra Student Assistant",
+      "duration": "September 2022 - January 2023",
+      "description": [
+        "Assisted Linear Algebra course in grading 40 students' assignments."
+      ]
+    }
+  ],
+  "education": [
+    {
+      "campus": "Universitas Indonesia",
+      "duration": "2021 - present",
+      "major": "Computer Engineering",
+      "gpa": "3.87"
+    }
+  ],
   "projects": [
     [
-      "GofeR",
-      "Vue.js reactivity in Go.",
-      "https://github.com/nasan016/gofer"
+      "CalTerra",
+      "Carbon footprint calculator mobile app",
+      "https://github.com/styxnanda/CalTerra",
+      [
+        "Calculated monthly carbon footprint emitted from home, vehicle, flight, and food sources.",
+        "Made using Flutter, Express, Node, PostgreSQL.",
+        "Responsible for frontend (Flutter), API management, and project management as team leader."
+      ]
     ],
     [
-      "WebShell",
-      "Terminal styled website.",
-      "https://github.com/nasan016/webshell"
+      "DanceRTOS",
+      "Class attendance machine with OTP authentication and RFID card",
+      "https://github.com/styxnanda/DanceRTOS-ESP32",
+      [
+        "RFID-based attendance machine with OTP mechanism and mobile management system.",
+        "Built using ESP32, FreeRTOS, C++, Flutter, NestJS, MQTT, and Blynk.",
+        "Responsible for wiring, Blynk, ESP32 code leveraging FreeRTOS, and manual-documentation."
+      ]
+    ],
+    [
+      "FanHive",
+      "Fanfiction sharing website",
+      "https://github.com/styxnanda/fanhive",
+      [
+        "Website to write, share, and interact with fictional fan stories.",
+        "Made using PostgreSQL, Node / Express, React, and SCSS.",
+        "Responsible as full-stack developer."
+      ]
+    ],
+    [
+      "Home Lab",
+      "A personal home server to host media and open-source apps",
+      "",
+      [
+        "Built a home server using second-hand office PC to self-host open-source services and media gallery.",
+        "Utilized Linux Debian, Docker, VPN with Tailscale, UFW Firewall, password-less SSH with private key, CasaOS, and Cloudflare Tunnel."
+      ]
+    ],
+    [
+      "JSleep",
+      "Android hotel reservation app",
+      "",
+      [
+        "Android app to book and rate hotel rooms.",
+        "Made using Java with Spring Boot, Retrofit, and Android Studio.",
+        "Responsible as full-stack developer."
+      ]
+    ],
+    [
+      "Naerys Knight",
+      "Game of Thrones character viewer and pairing maker to search AO3 works",
+      "https://naerys-knight.vercel.app/",
+      [
+        "Website to view Game of Thrones characters and pair them to search AO3 works.",
+        "Made using React + Vite and NestJS",
+        "Frameworks and libraries used are TanStack Router, TanStack Query, Tailwind, Zustand.",
+        "Responsible as full-stack developer."
+      ]
+    ],
+    [
+      "VAIO",
+      "Automatic moving vacuum robot with voice, hand, DS4, and phone controls",
+      "",
+      [
+        "A vacuum robot that can move autonomously using ultrasonic sensor",
+        "Can be controlled wirelessly by hand gesture, DS4, voice command, and mobile phone.",
+        "Responsible as team leader, DS4 Bluetooth, ESP32 API server, Flutter app.",
+        "Configured GitHub Actions to automate ESP32 firmware build.",
+        "Crafted physical vacuum pump,",
+        "Designed project logo and booth banner using Affinity Designer."
+      ]
     ]
   ],
   "colors": {
-    "background": "#0C0623",
+    "background": "#061a11",
     "foreground": "#F8DDE5",
-    "banner": "#FF9951",
+    "banner": "#66FF66",
     "border": {
-      "visible": true,
-      "color": "#FFADE2"
+      "visible": false,
+      "color": "#FFFFFF"
     },
     "prompt": {
       "default": "#A5A7A7",
-      "user": "#FE6BC9",
-      "host": "#70FDFF",
-      "input": "#FF7685"
+      "user": "#B6AAEE",
+      "host": "#66FF66",
+      "input": "#F9CD3E"
     },
     "link": {
-      "text": "#B6AAEE",
-      "highlightColor": "#FFADE2",
+      "text": "#dcff3d",
+      "highlightColor": "#66FF66",
       "highlightText": "#0C0623"
     },
     "commands": {
-      "textColor": "#FD9BDB"
+      "textColor": "#B6AAEE"
     }
   }
 }
